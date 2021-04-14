@@ -1,5 +1,5 @@
 terraform {
-  source = "git::git@github.com:terraform-aws-modules/terraform-aws-autoscaling.git?ref=v3.4.0"
+  source = "git::git@github.com:terraform-aws-modules/terraform-aws-autoscaling.git?ref=v4.1.0"
 }
 
 include {
@@ -28,7 +28,7 @@ dependency "varnish-loadbalanser" {
 
 ###########################################################
 # View all available inputs for this module:
-# https://registry.terraform.io/modules/terraform-aws-modules/autoscaling/aws/3.4.0?tab=inputs
+# https://registry.terraform.io/modules/terraform-aws-modules/autoscaling/aws/4.1.0?tab=inputs
 ###########################################################
 inputs = {
   # The number of Amazon EC2 instances that should be running in the group

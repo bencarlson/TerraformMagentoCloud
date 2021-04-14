@@ -1,5 +1,5 @@
 terraform {
-  source = "git::git@github.com:terraform-aws-modules/terraform-aws-security-group.git?ref=v3.4.0"
+  source = "git::git@github.com:terraform-aws-modules/terraform-aws-security-group.git?ref=v3.18.0"
 }
 
 include {
@@ -16,7 +16,7 @@ dependency "magento-cloud" {
 
 ###########################################################
 # View all available inputs for this module:
-# https://registry.terraform.io/modules/terraform-aws-modules/security-group/aws/3.4.0?tab=inputs
+# https://registry.terraform.io/modules/terraform-aws-modules/security-group/aws/3.18.0?tab=inputs
 ###########################################################
 inputs = {
   # List of IPv4 CIDR ranges to use on all ingress rules
